@@ -27,7 +27,7 @@ pipeline {
 			}
 			post {
 				always {
-					archiveArtifacts artifacts: 'Reports/**', allowEmptyArchive: true
+					archiveArtifacts artifacts: 'Reports/allure-report/index.html', allowEmptyArchive: true
 				}
 			}
 		}
