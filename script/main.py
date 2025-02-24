@@ -1,6 +1,5 @@
 import sys
 import os
-import time
 import pytest
 
 # https://reqres.in/api-docs/#/
