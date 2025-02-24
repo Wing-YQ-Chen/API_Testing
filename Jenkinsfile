@@ -23,7 +23,7 @@ pipeline {
 				echo "Run Testing"
                 call venv\\Scripts\\activate
                 cd script
-				python "script\\main.py"
+				python "main.py"
 				"""
 			}
 			post {
